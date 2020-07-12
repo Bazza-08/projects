@@ -35,7 +35,7 @@ ul {
 
 header {
     grid-area: header;
-    height: 12vh;
+    height: 15vh;
     width: 100%;
     display: flex;
     justify-content: center;
