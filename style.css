@@ -47,10 +47,11 @@ header {
     display: flex;
     align-items: center;
     transition: .5s;
+    justify-content: center;
 }
 
 .logo:hover {
-    transform: skew(15deg);
+    transform: scale(1.1);
 }
 
 .logo img {
