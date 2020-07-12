@@ -3,7 +3,7 @@ const projects = [
         name: "Change Background Colour",
         text: "Click the button to change the colour",
         image: "https://www.finnfestivalcanada.com/wp-content/uploads/2020/06/click.jpg",
-        link: "#",
+        link: "https://bazza-08.github.io/background-colour/",
     },
     {
         name: "Change Hex Colour",
