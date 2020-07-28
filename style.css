@@ -45,13 +45,15 @@ header {
 
 .logo {
     display: flex;
+    cursor: pointer;
     align-items: center;
     transition: .5s;
     justify-content: center;
+    z-index: 100;
 }
 
 .logo:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .logo img {
@@ -86,6 +88,10 @@ nav {
     grid-area: projects;
 }
 
+#projects h2 {
+    z-index: 101;
+}
+
 #about {
     grid-area: about;
 }
@@ -106,10 +112,12 @@ h2 {
     justify-content: center;
     width: 90%;
     margin:0 auto;
+    z-index: 100;
 }
 
 .card {
     height: 300px;
+    background: #FFF;
     width: 300px;
     border: 1px solid lightgray;
     border-radius: 5px;
@@ -121,6 +129,7 @@ h2 {
     align-content: space-around;
     cursor: pointer;
     overflow: hidden;
+    z-index: 100;
 }
 
 .card img {
@@ -137,4 +146,14 @@ h2 {
 
 h3 {
     font-weight: 600;
+}
+
+
+canvas {
+    position: fixed;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
 }
