@@ -53,4 +53,10 @@ const projects = [
         image: "https://www.princetonreview.com/cms-content/CanYouUseCalculatoronGMAT.jpg",
         link: "https://bazza-08.github.io/calculator/",
     },
+    {
+        name: "Chuck Norris Jokes",
+        text: "A Chuck Norris ajax random joke generator",
+        image: "https://www.pngkit.com/png/detail/110-1105172_chuck-norris-chuck-norris-cartoon-pics-transparent.png",
+        link: "https://bazza-08.github.io/Chuck-Norris-Jokes/",
+    },
 ]
